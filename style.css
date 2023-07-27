@@ -1,0 +1,21 @@
+.col-md-6  a {
+    text-decoration: none;
+    color: rgba(94, 36, 2, 0.768);
+  }
+  .input1{
+      height: 40px;
+      width: 70%;
+      border: none;
+      border-radius: 30px;
+      color: rgb(0, 0, 0);
+      font-size: 15px;
+      padding: 0 0 0 10px;
+      background: rgba(140, 61, 0, 0.16);
+      outline: none;
+  
+  }
+  
+  .input1:hover{
+      letter-spacing: 0.5px;
+  
+  }
