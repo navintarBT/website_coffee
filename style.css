@@ -1,3 +1,11 @@
+.container-sm {
+    max-height: 90px;
+
+}
+  .logo {
+    max-width: 150px;
+    max-height: 150px;
+  }
 .col-md-6  a {
     text-decoration: none;
     color: rgba(94, 36, 2, 0.768);
@@ -19,3 +27,34 @@
       letter-spacing: 0.5px;
   
   }
+      /*=============== FOOTER ===============*/
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      
+      footer li {
+        display: inline-block;
+        margin-right: 20px;
+        
+      }
+      footer a{
+          color: rgb(104, 38, 2);
+          text-decoration: none;
+      }
+      
+      footer li:last-child {
+        margin-right: 0;
+      }
+      
