@@ -97,31 +97,16 @@
           <div class="col-md-6">
             <h5>Register</h5><br>
 
-            <form id="form" class="form">
-              <div class="form-control">
-                  <label for="username">username</label>
-                  <input type=""name=""id="username"placeholder="Enter your username">
-                  <small>eror message</small>
-              </div>
-               <div class="form-control ">
-                  <label for="Email">Email</label>
-                  <input type=""name=""id="email"placeholder="Enter your Email">
-                  <small>eror message</small>
-              </div>
-               <div class="form-control ">
-                  <label for="password">password</label>
-                  <input type=""name=""id="password"placeholder="Enter your password">
-                  <small>eror message</small>
-              </div>
-               <div class="form-control ">
-                  <label for="confirm password">confirm password</label>
-                  <input type=""name=""id="re-password"placeholder="confirm password">
-                  <small>eror message</small>
-                  
-              </div>
-              <button type="submit">ลงทเบียน</button>
-  
-          </form>
+            <form id="signup-form">
+              <input type="text" name="username" id="username" class="form-control" required placeholder="Username"><br><br>
+              <input type="text" name="email" id="email" class="form-control" required placeholder="Email"><br><br>
+              <input type="password" name="password" id="password" class="form-control" required placeholder="Password"><br><br>
+              <input type="password" name="password2" id="re-password" class="form-control" required placeholder="re-Password">
+              <br><br>
+              <input type="submit" name="submit" value="register" class="btn btn-primary">
+              <br><br>
+              <p onclick="redirectToLogin()">Already have an account? Login</p>
+            </form>
 
           </div>
         </div>
